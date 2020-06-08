@@ -1276,12 +1276,12 @@
   },
   "itBlock": {
     "prefix": "tit",
-    "body": ["it('should $1', () => {", "\t$0", "})", ""],
+    "body": ["it('$1', () => {", "\t$0", "})", ""],
     "description": "Testing `it` block"
   },
   "itAsyncBlock": {
     "prefix": "tita",
-    "body": ["it('should $1', async () => {", "\t$0", "})", ""],
+    "body": ["it('$1', async () => {", "\t$0", "})", ""],
     "description": "Testing asynchronous `it` block"
   },
   "setupReactTest": {
